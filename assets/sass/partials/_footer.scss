@@ -1,0 +1,27 @@
+@use 'variables';
+
+footer {
+    background-color: #F8F9FA;
+    color: variables.$colorverde;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+iframe {
+    width: 360px;
+    height: 200;
+    padding: 10px;
+}
+
+.redes-sociales {
+    img {
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+    }
+}
+
+.contacto {
+    margin-top: 15px;
+}

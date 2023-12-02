@@ -1,0 +1,42 @@
+@mixin padd {
+    padding: 25px;
+}
+
+.primer_cont {
+    @include padd;
+}
+
+.segundo_cont {
+    @include padd;
+
+    img {
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+.cont_inicio {
+
+    h2,
+    p {
+        padding: 15px;
+    }
+}
+
+.card {
+    background-color: rgb(221, 245, 182);
+    border-bottom-right-radius: 20%;
+}
+
+.card-group {
+    gap: 5px;
+    border-top-left-radius: 20%;
+}
+
+.card-img-top {
+    img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+}
